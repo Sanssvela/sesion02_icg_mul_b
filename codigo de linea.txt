@@ -1,0 +1,10 @@
+jpanel = new javax.swing.JPanel() {
+  public void paintComponent:Graficos g;
+ {
+    New.paintComponent(g);
+    drawLine(30,30,180,145);
+    //drawLine(x1,y1,x2,y2)
+    //donde x1 e y1 son los puntos de inicio de dibujado.
+    //x2 e y2 son la coordenada donde finaliza la linea.
+  }
+};
